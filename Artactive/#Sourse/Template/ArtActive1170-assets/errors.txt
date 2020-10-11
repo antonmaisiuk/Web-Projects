@@ -1,0 +1,6 @@
+[2020-08-23 12:57:43] layer "+7 (920) 148 81 31": Expected Either a default asset specification or a layer asset specification but "+" found.
+[2020-08-23 12:57:43] layer "vk.com/mr.sharp": Unsupported extension: sharp
+[2020-08-23 12:57:43] layer "vk.com/mr.sharp": Unsupported extension: sharp
+[2020-08-23 12:57:43] layer "vk.com/mr.sharp": Unsupported extension: sharp
+[2020-08-23 12:57:43] layer "art-aktiv.76@mail.ru": Unsupported extension: ru
+[2020-08-23 12:57:43] layer "+7 (920) 148 81 31": Expected Either a default asset specification or a layer asset specification but "+" found.

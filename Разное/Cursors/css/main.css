@@ -1,0 +1,90 @@
+body{
+    background-color: #9b59b6;
+    font-family: sans-serif;
+}
+body,h1,h2,h3,p,a{
+    padding: 0;
+    margin: 0;
+}
+.title{
+    text-align: center;
+    margin-top: 50px;
+    color: #ecf0f1;
+    font-size: 54px;
+
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    color: #ecf0f1;
+    text-transform: capitalize;
+    width: 35%;
+    min-width: 170px;
+    max-width: 200px;
+    height: 100px;
+    background-color: #34495e;
+    margin-top: 30px;
+    margin-right: 30px;
+    border-radius: 20px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card:hover{
+    box-shadow: 1px 1px 35px black;
+}
+
+.card2 {
+    cursor: crosshair;
+}
+.card3{
+    cursor: help;
+}
+.card4{
+    cursor: move;
+}
+.card5 {
+    cursor: pointer;
+}
+.card6 {
+    cursor: progress;
+}
+.card7 {
+    cursor: text;
+}
+.card8 {
+    cursor: wait;
+}
+.card9 {
+    cursor: n-resize;
+}
+.card10 {
+    cursor: ne-resize;
+}
+.card11 {
+    cursor: e-resize;
+}
+.card12 {
+    cursor: se-resize;
+}
+.card13 {
+    cursor: s-resize;
+}
+.card14 {
+    cursor: sw-resize;
+}
+.card15 {
+    cursor: w-resize;
+}
+.card16 {
+    cursor: nw-resize;
+}
