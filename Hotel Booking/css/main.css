@@ -120,3 +120,147 @@
 .nav_li-a:hover{
     color: #EC1F46;
 }
+.way{
+    padding: 19px 0;
+}
+.way p{
+    font-size: 12px;
+}
+.main_selected_hotel-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+.selected_hotel-offer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.selected_hotel-name{
+    font-weight: bold;
+    font-size: 24px;
+    color: #333333;
+    margin-top: 5px;
+    margin-right: 14px;
+}
+.offer{
+    width: 70px;
+    height: 20px;
+    border-radius: 3px;
+    background-color: #EC1F46;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+}
+.selected_hotel-descript{
+    font-size: 12px;
+}
+.selected_hotel-numb-rating{
+    width: 65px;
+    height: 45px;
+    background-color: #EC1F46;
+    border-radius: 4px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.numb-rating-title{
+    font-size: 8px;
+    margin-bottom: 2px;
+}
+.numb-rating-number{
+    font-weight: bold;
+}
+.numb-rating-number .rating-five{
+    font-size: 10px;
+}
+.main_selected_hotel-main{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 68px;
+
+}
+.main-information{
+    width: 350px;
+    height: 210px;
+    background-color: #0A223D;
+    border-radius: 8px;
+    margin-bottom: 27px;
+    padding: 26px;
+    color: #ffffff;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* justify-content: space-between; */
+}
+.main-information-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.main_price-information p:first-child{
+    font-size: 10px;
+}
+.main_start-price{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 5px 0 5px 0;
+}
+.quick-booking{
+   
+    font-size: 19px;
+}
+.main-map {
+    width: 347px;
+    height: 213px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.main_infor-room{
+    margin-top: 8px;
+    margin-bottom: 24px;
+}
+.main_infor-guests,
+.main_infor-room,
+.main_infor-number,
+.main_infor-number-tel {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.main_infor-number{
+    margin-top: 9px;
+    margin-bottom: 17px;
+    justify-content: space-between;
+}
+.main_infor-guests p,
+.main_infor-room p,
+.main_infor-number-tel p{
+    margin-left: 9px;
+
+}
+.main_infor-number-tel img{
+    width: 14px;
+    height: 14px;
+}
+.main_infor-number-tel p{
+    font-size: 18px;
+    font-family: 'Nunito',
+    sans-serif;
+    /* font-weight: bolder; */
+}
+.main_infor-btn{
+    margin: 0 auto;
+    width: 100%;
+    height: 45px;
+    background-color: #EC1F46;
+    border-radius: 4px;
+    color: #ffffff;
+}
