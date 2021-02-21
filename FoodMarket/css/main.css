@@ -265,7 +265,7 @@ background: linear-gradient(0deg, rgba(251,75,71,1) 46%, rgba(254,119,132,1) 100
 }
 .main{
 	padding-top: 30px;
-	background: #f9f9f9 url("../img/main/main-bg.png") 0 0 no-repeat;
+	background: #f9f9f9 url("../img/Main/main-bg.png") 0 0 no-repeat;
 }
 .promo__catalog{
 	background-color: #fff;
@@ -390,16 +390,16 @@ background: linear-gradient(0deg, rgba(251,75,71,1) 46%, rgba(254,119,132,1) 100
 	align-content: center;
 }
 .cart1{
-	background: #fff url(../img/recomend/rec1.png) center top no-repeat;
+	background: #fff url(../img/Recomend/rec1.png) center top no-repeat;
 }
 .cart2{
-	background: #fff url(../img/recomend/rec2.png) center 25px no-repeat;
+	background: #fff url(../img/Recomend/rec2.png) center 25px no-repeat;
 }
 .cart3{
-	background: #fff url(../img/recomend/rec3.png) center top no-repeat;
+	background: #fff url(../img/Recomend/rec3.png) center top no-repeat;
 }
 .cart4{
-	background: #fff url(../img/recomend/rec4.png) center top no-repeat;
+	background: #fff url(../img/Recomend/rec4.png) center top no-repeat;
 }
 
 .cart:last-child{
@@ -521,7 +521,7 @@ background: linear-gradient(0deg, rgba(251,75,71,1) 46%, rgba(254,119,132,1) 100
 	box-shadow: 0 0 25px #fb4f4e;
 }
 .pluses{
-	background: #fff url(../img/main/pluses-bg.png) -5% 25% no-repeat;
+	background: #fff url(../img/Main/pluses-bg.png) -5% 25% no-repeat;
 	-webkit-box-shadow: 0 0 20px 12px #e5e5e5;
 	box-shadow: 0 0 20px 12px #e5e5e5;
 }
@@ -552,13 +552,13 @@ background: linear-gradient(0deg, rgba(251,75,71,1) 46%, rgba(254,119,132,1) 100
 	margin-top: 140px;
 }
 .pluse1{
-	background: #fff url(../img/main/main-delivery.png) top center no-repeat;
+	background: #fff url(../img/Main/main-delivery.png) top center no-repeat;
 }
 .pluse2{
-	background: #fff url(../img/main/main-like.png) top center no-repeat;
+	background: #fff url(../img/Main/main-like.png) top center no-repeat;
 }
 .pluse3{
-	background: #fff url(../img/main/main-surprise.png) top center no-repeat;
+	background: #fff url(../img/Main/main-surprise.png) top center no-repeat;
 }
 .news-items{
 
@@ -631,7 +631,7 @@ background: linear-gradient(0deg, rgba(251,75,71,1) 46%, rgba(254,119,132,1) 100
 	padding-bottom: 15px;
 }
 .email{
-	background: #3e4142 url(../img/main/email.bg.jpg) 0 0 no-repeat;
+	background: #3e4142 url(../img/Main/email.bg.jpg) 0 0 no-repeat;
 }
 /*.email:after{
 	position: relative;
