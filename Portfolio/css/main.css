@@ -1,0 +1,135 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+.container{
+    max-width: 1440px;
+    width: 75%;
+    margin: 0 auto;
+    
+}
+#header{
+    margin-top: 160px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__myphoto img{
+    width: 100%;
+}
+.header__myphoto {
+    width: 25%;
+}
+.photo_link{
+    cursor: pointer;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 13px;
+    color: #C9C9CA;
+}
+.photo_link-pl{
+    display: none;
+}
+.header__intro {
+    max-width: 1139px;
+    width: 70%;
+}
+.header__intro-emoji img{
+    width: 45px;
+}
+.header__intro-txt{
+    margin-top: 31px;
+}
+.intro-txt{
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 1px;
+}
+.intro_txt-pl{
+    display: none;
+}
+#main{
+    margin-top: 175px;
+}
+.myprojects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.project{
+    /* max-width: 680px; */
+    width: 85%;
+    height: auto;
+    margin-bottom: 75px;
+}
+.project a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.hover_anim:hover, .project:hover {
+    transform: translate(5px, -5px);
+    transition: 0.25s;
+}
+.project:nth-child(even):hover {
+    transform: translate(-5px, -5px);
+    transition: 0.5s;
+}
+.project__photo{
+    /* background-color: #DBECFF; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.project__photo img{
+    width: 100%;
+}
+.project__photo{
+    margin-top: 24px;
+}
+.project__title p{
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+    /* line-height: 40%; */
+}
+.project__title-ru{
+    display: none;
+}
+
+@media(max-width:769px){
+    .intro-txt {
+        font-size: 25px;
+        line-height: 39px;
+    }
+}
+
+@media(max-width:426px) {
+    #header{
+        flex-direction: column;
+    }
+    .header__myphoto{
+        width: 70%;
+        margin-bottom: 20px;
+    }
+    .header__intro{
+        width: 100%;
+    }
+    .intro-txt {
+        font-size: 22px;
+        line-height: 39px;
+    }
+    #main{
+        margin-top: 100px;   
+    }
+    .project{
+        width: 100%;
+    }
+}
