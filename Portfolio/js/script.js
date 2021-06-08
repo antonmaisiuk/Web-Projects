@@ -4,7 +4,7 @@
 let lang = window.navigator.language;
 console.log(lang);
 
-var introTextRu = document.querySelector(".intro_txt-ru");
+    var introTextRu = document.querySelector(".intro_txt-ru");
     var introTextPl = document.querySelector(".intro_txt-pl");
     var photoLinkRu = document.querySelector(".photo_link-ru");
     var photoLinkPl = document.querySelector(".photo_link-pl");
@@ -26,7 +26,7 @@ if (lang == "pl"){
     }
     
 }
-if (lang == "ru"){
+if (lang == "ru-RU"){
     
     introTextRu.style.display = "block";
     introTextPl.style.display = "none";
